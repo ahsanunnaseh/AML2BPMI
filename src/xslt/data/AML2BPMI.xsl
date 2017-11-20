@@ -61,12 +61,17 @@
             targetNamespace="http://org.eclipse.bpmn2.modeler.examples.customtask">
             <bpmn2:process id="Order_process" name="Default Process" isExecutable="false">
                 
-                 <!-- Start Event -->
-                 <!-- Start Event -->
-                 <!-- Start Event -->
-                 <!-- Start Event -->
-                 <!-- Start Event -->
-                  <!-- Start Event -->
+                 <!-- 1. Rule 1 Start Event ==> Event With Incoming Control Flow -->
+                 <!-- 2. Rule 2 End Event ==> Event Without Outgoing Control Flow-->
+                 <!-- 3. Function ==> Activity -->
+                 <!-- 4. AND Connector ==>  -->
+                 <!-- 5. OR Connector ==> -->
+                 <!-- 6. XOR Connector ==> -->
+                 <!-- 7. Organizational Unit ==> -->
+                 <!-- 8. Data ==>  ==> -->
+                 <!-- 9. System  ==> -->
+                 <!-- 10.Process Interface  ==> -->
+            </bpmn2:process>
                 <definitions>
                     <xsl:for-each select="//*[name()='ObjDef']">
                         <xsl:element name="definition">
