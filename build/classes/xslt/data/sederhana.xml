@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AML SYSTEM "ARIS-Export.dtd" [
+	<!ENTITY LocaleId.USen "1033">
+	<!ENTITY Codepage.USen "1252">
+]>
+
+<!-- exported with version 10.0.0.2.1150388 -->
+<AML>
+	<Header-Info
+		CreateTime="13:11:05.417"
+		CreateDate="11-17-2017"
+		DatabaseName="United Motor Group"
+		UserName="naseh"
+		ArisExeVersion="100"
+	/>
+	<Language LocaleId="&LocaleId.USen;" Codepage="&Codepage.USen;">
+		<LanguageName>English</LanguageName>
+		<LogFont
+			FaceName="Arial"
+			Height="-13"
+			Width="0"
+			Escapement="0"
+			Orientation="0"
+			Weight="400"
+			Italic="NO"
+			Underline="NO"
+			StrikeOut="NO"
+			CharSet="0"
+			OutPrecision="0"
+			ClipPrecision="0"
+			Quality="0"
+			PitchAndFamily="0"
+			Color="0"/>
+	</Language>
+	<FontStyleSheet FontSS.ID="FontSS.-3dKBeya23cC-c-L">
+		<GUID>df7c2860-a534-11db-4767-000f1fe60704</GUID>
+		<AttrDef AttrDef.Type="AT_NAME">
+			<AttrValue LocaleId="&LocaleId.USen;">
+				<StyledElement>
+					<Paragraph Alignment="UNDEFINED" Indent="0"/>
+						<StyledElement>
+							<PlainText TextValue="Header"/>
+						</StyledElement>
+				</StyledElement>
+			</AttrValue>
+		</AttrDef>
+		<FontNode LocaleId="&LocaleId.USen;"
+			FaceName="Arial"
+			Height="-19"
+			Width="0"
+			Escapement="0"
+			Orientation="0"
+			Weight="700"
+			Italic="NO"
+			Underline="NO"
+			StrikeOut="NO"
+			CharSet="0"
+			OutPrecision="3"
+			ClipPrecision="2"
+			Quality="1"
+			PitchAndFamily="34"
+			Color="0"/>
+	</FontStyleSheet>
+	<FontStyleSheet FontSS.ID="FontSS.-qjrOQ_wDzS-c-L">
+		<GUID>4b3afc09-2970-11d3-b31c-00105a6972b3</GUID>
+		<AttrDef AttrDef.Type="AT_ID">
+			<AttrValue LocaleId="&LocaleId.USen;">
+				<StyledElement>
+					<Paragraph Alignment="UNDEFINED" Indent="0"/>
+						<StyledElement>
+							<PlainText TextValue="IDS.4017"/>
+						</StyledElement>
+				</StyledElement>
+			</AttrValue>
+		</AttrDef>
+		<AttrDef AttrDef.Type="AT_NAME">
+			<AttrValue LocaleId="&LocaleId.USen;">
+				<StyledElement>
+					<Paragraph Alignment="UNDEFINED" Indent="0"/>
+						<StyledElement>
+							<PlainText TextValue="Model title"/>
+						</StyledElement>
+				</StyledElement>
+			</AttrValue>
+		</AttrDef>
+		<FontNode LocaleId="&LocaleId.USen;"
+			FaceName="Arial"
+			Height="-13"
+			Width="0"
+			Escapement="0"
+			Orientation="0"
+			Weight="400"
+			Italic="NO"
+			Underline="NO"
+			StrikeOut="NO"
+			CharSet="0"
+			OutPrecision="0"
+			ClipPrecision="0"
+			Quality="0"
+			PitchAndFamily="0"
+			Color="0"/>
+	</FontStyleSheet>
+	<FontStyleSheet FontSS.ID="FontSS.-3VY6SlI1ioW-c-L">
+		<GUID>24c31d73-7c23-4d5b-9a3f-dd2f560d1c3e</GUID>
+		<AttrDef AttrDef.Type="AT_NAME">
+			<AttrValue LocaleId="&LocaleId.USen;">
+				<StyledElement>
+					<Paragraph Alignment="UNDEFINED" Indent="0"/>
+						<StyledElement>
+							<PlainText TextValue="White 12 bold"/>
+						</StyledElement>
+				</StyledElement>
+			</AttrValue>
+		</AttrDef>
+		<AttrDef AttrDef.Type="AT_ID">
+			<AttrValue LocaleId="&LocaleId.USen;">
+				<StyledElement>
+					<Paragraph Alignment="UNDEFINED" Indent="0"/>
+						<StyledElement>
+							<PlainText TextValue="IDS.14331"/>
+						</StyledElement>
+				</StyledElement>
+			</AttrValue>
+		</AttrDef>
+		<FontNode LocaleId="&LocaleId.USen;"
+			FaceName="Arial"
+			Height="-13"
+			Width="0"
+			Escapement="0"
+			Orientation="0"
+			Weight="400"
+			Italic="NO"
+			Underline="NO"
+			StrikeOut="NO"
+			CharSet="0"
+			OutPrecision="0"
+			ClipPrecision="0"
+			Quality="0"
+			PitchAndFamily="0"
+			Color="0"/>
+	</FontStyleSheet>
+	<FontStyleSheet FontSS.ID="FontSS.5TkcoW-XQKr-c-L">
+		<GUID>761eed20-9147-11e2-0a52-81f0b2644201</GUID>
+		<AttrDef AttrDef.Type="AT_NAME">
+			<AttrValue LocaleId="&LocaleId.USen;">
+				<StyledElement>
+					<Paragraph Alignment="UNDEFINED" Indent="0"/>
+						<StyledElement>
+							<PlainText TextValue="UMG Subheader"/>
+						</StyledElement>
+				</StyledElement>
+			</AttrValue>
+		</AttrDef>
+		<FontNode LocaleId="&LocaleId.USen;"
+			FaceName="Arial"
+			Height="-12"
+			Width="0"
+			Escapement="0"
+			Orientation="0"
+			Weight="400"
+			Italic="NO"
+			Underline="NO"
+			StrikeOut="NO"
+			CharSet="-52"
+			OutPrecision="3"
+			ClipPrecision="2"
+			Quality="1"
+			PitchAndFamily="34"
+			Color="787878"/>
+	</FontStyleSheet>
+	<FontStyleSheet FontSS.ID="FontSS.-7HORMDXXyu1-c-L">
+		<GUID>171cbf3b-008e-11d4-98a2-006097390ace</GUID>
+		<AttrDef AttrDef.Type="AT_NAME">
+			<AttrValue LocaleId="&LocaleId.USen;">
+				<StyledElement>
+					<Paragraph Alignment="UNDEFINED" Indent="0"/>
+						<StyledElement>
+							<PlainText TextValue="White"/>
+						</StyledElement>
+				</StyledElement>
+			</AttrValue>
+		</AttrDef>
+		<AttrDef AttrDef.Type="AT_ID">
+			<AttrValue LocaleId="&LocaleId.USen;">
+				<StyledElement>
+					<Paragraph Alignment="UNDEFINED" Indent="0"/>
+						<StyledElement>
+							<PlainText TextValue="IDS.4013"/>
+						</StyledElement>
+				</StyledElement>
+			</AttrValue>
+		</AttrDef>
+		<FontNode LocaleId="&LocaleId.USen;"
+			FaceName="Arial"
+			Height="-13"
+			Width="0"
+			Escapement="0"
+			Orientation="0"
+			Weight="400"
+			Italic="NO"
+			Underline="NO"
+			StrikeOut="NO"
+			CharSet="0"
+			OutPrecision="0"
+			ClipPrecision="0"
+			Quality="0"
+			PitchAndFamily="0"
+			Color="0"/>
+	</FontStyleSheet>
+	<FontStyleSheet FontSS.ID="FontSS.3m3CftxDeMn-c-L">
+		<GUID>fc2caed0-ecc9-11db-2729-000bcd0cce4e</GUID>
+		<AttrDef AttrDef.Type="AT_NAME">
+			<AttrValue LocaleId="&LocaleId.USen;">
+				<StyledElement>
+					<Paragraph Alignment="UNDEFINED" Indent="0"/>
+						<StyledElement>
+							<PlainText TextValue="Standard bold"/>
+						</StyledElement>
+				</StyledElement>
+			</AttrValue>
+		</AttrDef>
+		<FontNode LocaleId="&LocaleId.USen;"
+			FaceName="Arial"
+			Height="13"
+			Width="0"
+			Escapement="0"
+			Orientation="0"
+			Weight="700"
+			Italic="NO"
+			Underline="NO"
+			StrikeOut="NO"
+			CharSet="0"
+			OutPrecision="3"
+			ClipPrecision="2"
+			Quality="1"
+			PitchAndFamily="34"
+			Color="0"/>
+	</FontStyleSheet>
+	<FontStyleSheet FontSS.ID="FontSS.-7TivWEDLMzu-c-L">
+		<GUID>37c24e91-9148-11e2-0a52-81f0b2644201</GUID>
+		<AttrDef AttrDef.Type="AT_NAME">
+			<AttrValue LocaleId="&LocaleId.USen;">
+				<StyledElement>
+					<Paragraph Alignment="UNDEFINED" Indent="0"/>
+						<StyledElement>
+							<PlainText TextValue="UMG ChangeDate"/>
+						</StyledElement>
+				</StyledElement>
+			</AttrValue>
+		</AttrDef>
+		<FontNode LocaleId="&LocaleId.USen;"
+			FaceName="Arial"
+			Height="-11"
+			Width="0"
+			Escapement="0"
+			Orientation="0"
+			Weight="400"
+			Italic="NO"
+			Underline="NO"
+			StrikeOut="NO"
+			CharSet="0"
+			OutPrecision="3"
+			ClipPrecision="2"
+			Quality="1"
+			PitchAndFamily="34"
+			Color="787878"/>
+	</FontStyleSheet>
+	<FontStyleSheet FontSS.ID="FontSS.-4kdvtVfVnZz-c-L">
+		<GUID>af0339b0-2730-11d4-b43e-005004607f33</GUID>
+		<AttrDef AttrDef.Type="AT_NAME">
+			<AttrValue LocaleId="&LocaleId.USen;">
+				<StyledElement>
+					<Paragraph Alignment="UNDEFINED" Indent="0"/>
+						<StyledElement>
+							<PlainText TextValue="Bold"/>
+						</StyledElement>
+				</StyledElement>
+			</AttrValue>
+		</AttrDef>
+		<FontNode LocaleId="&LocaleId.USen;"
+			FaceName="Arial"
+			Height="-13"
+			Width="0"
+			Escapement="0"
+			Orientation="0"
+			Weight="700"
+			Italic="NO"
+			Underline="NO"
+			StrikeOut="NO"
+			CharSet="0"
+			OutPrecision="0"
+			ClipPrecision="2"
+			Quality="1"
+			PitchAndFamily="0"
+			Color="0"/>
+	</FontStyleSheet>
+	<FontStyleSheet FontSS.ID="FontSS.qUN7L9Dya3-c-L">
+		<GUID>22b751cb-7101-422a-9d2f-e65505bc92bb</GUID>
+		<AttrDef AttrDef.Type="AT_NAME">
+			<AttrValue LocaleId="&LocaleId.USen;">
+				<StyledElement>
+					<Paragraph Alignment="UNDEFINED" Indent="0"/>
+						<StyledElement>
+							<PlainText TextValue="Aris 20 bold"/>
+						</StyledElement>
+				</StyledElement>
+			</AttrValue>
+		</AttrDef>
+		<FontNode LocaleId="&LocaleId.USen;"
+			FaceName="Arial"
+			Height="-27"
+			Width="0"
+			Escapement="0"
+			Orientation="0"
+			Weight="700"
+			Italic="NO"
+			Underline="NO"
+			StrikeOut="NO"
+			CharSet="0"
+			OutPrecision="3"
+			ClipPrecision="2"
+			Quality="1"
+			PitchAndFamily="34"
+			Color="0"/>
+	</FontStyleSheet>
+	<FontStyleSheet FontSS.ID="FontSS.5e0QJoFQvBZ-c-L">
+		<GUID>17159761-9148-11e2-0a52-81f0b2644201</GUID>
+		<AttrDef AttrDef.Type="AT_NAME">
+			<AttrValue LocaleId="&LocaleId.USen;">
+				<StyledElement>
+					<Paragraph Alignment="UNDEFINED" Indent="0"/>
+						<StyledElement>
+							<PlainText TextValue="UMG Header"/>
+						</StyledElement>
+				</StyledElement>
+			</AttrValue>
+		</AttrDef>
+		<FontNode LocaleId="&LocaleId.USen;"
+			FaceName="Arial"
+			Height="-16"
+			Width="0"
+			Escapement="0"
+			Orientation="0"
+			Weight="700"
+			Italic="NO"
+			Underline="NO"
+			StrikeOut="NO"
+			CharSet="0"
+			OutPrecision="3"
+			ClipPrecision="2"
+			Quality="1"
+			PitchAndFamily="34"
+			Color="606060"/>
+	</FontStyleSheet>
+	<FontStyleSheet FontSS.ID="FontSS.4kZBlGKCS86-c-L">
+		<GUID>de4b7f5a-21c5-11d4-b43b-005004607f33</GUID>
+		<AttrDef AttrDef.Type="AT_ID">
+			<AttrValue LocaleId="&LocaleId.USen;">
+				<StyledElement>
+					<Paragraph Alignment="UNDEFINED" Indent="0"/>
+						<StyledElement>
+							<PlainText TextValue="IDS.5827"/>
+						</StyledElement>
+				</StyledElement>
+			</AttrValue>
+		</AttrDef>
+		<AttrDef AttrDef.Type="AT_NAME">
+			<AttrValue LocaleId="&LocaleId.USen;">
+				<StyledElement>
+					<Paragraph Alignment="UNDEFINED" Indent="0"/>
+						<StyledElement>
+							<PlainText TextValue="Medium-sized"/>
+						</StyledElement>
+				</StyledElement>
+			</AttrValue>
+		</AttrDef>
+		<FontNode LocaleId="&LocaleId.USen;"
+			FaceName="Arial"
+			Height="-13"
+			Width="0"
+			Escapement="0"
+			Orientation="0"
+			Weight="400"
+			Italic="NO"
+			Underline="NO"
+			StrikeOut="NO"
+			CharSet="0"
+			OutPrecision="0"
+			ClipPrecision="0"
+			Quality="0"
+			PitchAndFamily="0"
+			Color="0"/>
+	</FontStyleSheet>
+	<FontStyleSheet FontSS.ID="FontSS.-jlcYPOZRLR-c-L">
+		<GUID>d7b815f4-04df-4971-8f01-03fe21c67159</GUID>
+		<AttrDef AttrDef.Type="AT_NAME">
+			<AttrValue LocaleId="&LocaleId.USen;">
+				<StyledElement>
+					<Paragraph Alignment="UNDEFINED" Indent="0"/>
+						<StyledElement>
+							<PlainText TextValue="Standard"/>
+						</StyledElement>
+				</StyledElement>
+			</AttrValue>
+		</AttrDef>
+		<FontNode LocaleId="&LocaleId.USen;"
+			FaceName="Arial"
+			Height="-10"
+			Width="0"
+			Escapement="0"
+			Orientation="0"
+			Weight="400"
+			Italic="NO"
+			Underline="NO"
+			StrikeOut="NO"
+			CharSet="0"
+			OutPrecision="0"
+			ClipPrecision="0"
+			Quality="0"
+			PitchAndFamily="0"
+			Color="0"/>
+	</FontStyleSheet>
+	<Group Group.ID="Group.Root">
+		<ObjDef ObjDef.ID="ObjDef.7RgG7w4RzvE-p-L"
+			TypeNum="OT_EVT"
+			ToCxnDefs.IdRefs="CxnDef.1akv2vKTLdF-q-L"
+			SymbolNum="ST_EV"
+			LastUpdated="06:08:38.000;11/17/2017"
+			CompositePosition="0"
+			CompositeType="1"
+		Creator="naseh"
+		CreationTimeStamp="06:08:37.000;11/17/2017"
+		LastModifier="naseh"
+		LastModificationTimeStamp="06:08:38.000;11/17/2017"
+>
+			<GUID>a582cfa4-cb5d-11e7-65ac-484d7e9a821f</GUID>
+			<AttrDef AttrDef.Type="AT_NAME">
+				<AttrValue LocaleId="&LocaleId.USen;">
+					<StyledElement>
+						<Paragraph Alignment="UNDEFINED" Indent="0"/>
+							<StyledElement>
+								<PlainText TextValue="Event Kedua"/>
+							</StyledElement>
+					</StyledElement>
+				</AttrValue>
+			</AttrDef>
+		</ObjDef>
+		<ObjDef ObjDef.ID="ObjDef.-6l8tqMxObd7-p-L"
+			TypeNum="OT_FUNC"
+			ToCxnDefs.IdRefs=" CxnDef.51sCS00h_9_-q-L"
+			SymbolNum="ST_FUNC"
+			LastUpdated="06:08:38.000;11/17/2017"
+			CompositePosition="0"
+			CompositeType="1"
+		Creator="naseh"
+		CreationTimeStamp="06:08:37.000;11/17/2017"
+		LastModifier="naseh"
+		LastModificationTimeStamp="06:08:38.000;11/17/2017"
+>
+			<GUID>a582cfa2-cb5d-11e7-65ac-484d7e9a821f</GUID>
+			<AttrDef AttrDef.Type="AT_NAME">
+				<AttrValue LocaleId="&LocaleId.USen;">
+					<StyledElement>
+						<Paragraph Alignment="UNDEFINED" Indent="0"/>
+							<StyledElement>
+								<PlainText TextValue="Function"/>
+							</StyledElement>
+					</StyledElement>
+				</AttrValue>
+			</AttrDef>
+			<CxnDef CxnDef.ID="CxnDef.1akv2vKTLdF-q-L"
+				CxnDef.Type="CT_CRT_1"
+				ToObjDef.IdRef="ObjDef.7RgG7w4RzvE-p-L"
+				SourceOrderNum="0"
+				TargetOrderNum="0"
+			Creator="naseh"
+			CreationTimeStamp="06:08:37.000;11/17/2017"
+			LastModifier="naseh"
+			LastModificationTimeStamp="06:08:37.000;11/17/2017"
+>
+				<GUID>a582cfa7-cb5d-11e7-65ac-484d7e9a821f</GUID>
+			</CxnDef>
+		</ObjDef>
+		<ObjDef ObjDef.ID="ObjDef.1XNMJh76L28-p-L"
+			TypeNum="OT_EVT"
+			SymbolNum="ST_EV"
+			LastUpdated="06:08:38.000;11/17/2017"
+			CompositePosition="0"
+			CompositeType="1"
+		Creator="naseh"
+		CreationTimeStamp="06:08:37.000;11/17/2017"
+		LastModifier="naseh"
+		LastModificationTimeStamp="06:08:38.000;11/17/2017"
+>
+			<GUID>a582cfa0-cb5d-11e7-65ac-484d7e9a821f</GUID>
+			<AttrDef AttrDef.Type="AT_NAME">
+				<AttrValue LocaleId="&LocaleId.USen;">
+					<StyledElement>
+						<Paragraph Alignment="UNDEFINED" Indent="0"/>
+							<StyledElement>
+								<PlainText TextValue="Event Pertama"/>
+							</StyledElement>
+					</StyledElement>
+				</AttrValue>
+			</AttrDef>
+			<CxnDef CxnDef.ID="CxnDef.51sCS00h_9_-q-L"
+				CxnDef.Type="CT_ACTIV_1"
+				ToObjDef.IdRef="ObjDef.-6l8tqMxObd7-p-L"
+				SourceOrderNum="0"
+				TargetOrderNum="0"
+			Creator="naseh"
+			CreationTimeStamp="06:08:37.000;11/17/2017"
+			LastModifier="naseh"
+			LastModificationTimeStamp="06:08:37.000;11/17/2017"
+>
+				<GUID>a582cfa6-cb5d-11e7-65ac-484d7e9a821f</GUID>
+			</CxnDef>
+		</ObjDef>
+		<Model Model.ID="Model.-6reBR9hfCt_-u-L"
+			Model.Type="MT_EEPC"
+			AttrHandling="BREAKATTR"
+			CxnMode="ONLYVERTICAL"
+			GridUse="YES"
+			GridSize="50"
+			Scale="100"
+			PrintScale="100"
+			BackColor="-1"
+			CurveRadius="0"
+			ArcRadius="0"		Creator="naseh"
+		CreationTimeStamp="06:07:07.000;11/17/2017"
+		LastModifier="naseh"
+		LastModificationTimeStamp="06:08:38.000;11/17/2017"
+>
+			<Flag>1004c0</Flag>
+			<GUID>8a916170-cb5d-11e7-65ac-484d7e9a821f</GUID>
+			<TemplateGUID>4308e940-7cf7-11e2-1759-5cf9dd72f82f</TemplateGUID>
+			<Lane Lane.ID="Lane.-6reBR9hfCt_-u-L--2TJSWMHd1rL-E-L-40-c"
+Lane.Type="LT_DEFAULT"
+				Orientation="VERTICAL"
+				StartBorder="0"
+				EndBorder="50000">
+				<GUID>8a9d2141-cb5d-11e7-65ac-484d7e9a821f</GUID>
+				<Pen Color="0" Style="0" Width="0"/>
+				<Brush Color="7f7f7f" Color2="0" BrushType="SOLID"/>
+				<AttrDef AttrDef.Type="AT_NAME">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="."/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+			</Lane>
+			<Lane Lane.ID="Lane.-6reBR9hfCt_-u-L-7z2q54Si_3g-E-L-40-c"
+Lane.Type="LT_DEFAULT"
+				Orientation="HORIZONTAL"
+				StartBorder="0"
+				EndBorder="50000">
+				<GUID>8aa18e11-cb5d-11e7-65ac-484d7e9a821f</GUID>
+				<Pen Color="0" Style="0" Width="0"/>
+				<Brush Color="7f7f7f" Color2="0" BrushType="SOLID"/>
+				<AttrDef AttrDef.Type="AT_NAME">
+					<AttrValue LocaleId="&LocaleId.USen;">
+						<StyledElement>
+							<Paragraph Alignment="UNDEFINED" Indent="0"/>
+								<StyledElement>
+									<PlainText TextValue="."/>
+								</StyledElement>
+						</StyledElement>
+					</AttrValue>
+				</AttrDef>
+			</Lane>
+			<AttrDef AttrDef.Type="AT_NAME">
+				<AttrValue LocaleId="&LocaleId.USen;">
+					<StyledElement>
+						<Paragraph Alignment="UNDEFINED" Indent="0"/>
+							<StyledElement>
+								<PlainText TextValue="Sederhana"/>
+							</StyledElement>
+					</StyledElement>
+				</AttrValue>
+			</AttrDef>
+			<ObjOcc ObjOcc.ID="ObjOcc.-6reBR9hfCt_-u-L-4cWBuYkCnH--x-L-33-c"
+				ObjDef.IdRef="ObjDef.7RgG7w4RzvE-p-L"
+				SymbolNum="ST_EV"
+				Flags="0"
+				Zorder="3"
+				Hints="0"
+				SequenceNumber="0"
+>
+				<Position Pos.X="425" Pos.Y="850"/>
+				<Size Size.dX="450" Size.dY="200"/>
+				<ExternalGUID>a582cfa5-cb5d-11e7-65ac-484d7e9a821f</ExternalGUID>
+
+				<AttrOcc AttrTypeNum="AT_NAME"
+					Port="CENTER"
+					OrderNum="0"
+					Alignment="CENTER"
+					SymbolFlag="TEXT"
+					FontSS.IdRef="FontSS.-jlcYPOZRLR-c-L"
+					OffsetX="0"
+					OffsetY="0"
+					Rotation="0"
+>
+					<Size Size.dX="0" Size.dY="0"/>
+				</AttrOcc>
+			</ObjOcc>
+			<ObjOcc ObjOcc.ID="ObjOcc.-6reBR9hfCt_-u-L-s0orDB8Ikt-x-L-33-c"
+				ObjDef.IdRef="ObjDef.1XNMJh76L28-p-L"
+				ToCxnOccs.IdRefs="CxnOcc.-6reBR9hfCt_-u-L--7szZQnGvBVA-y-L-34-c"
+				SymbolNum="ST_EV"
+				Flags="0"
+				Zorder="1"
+				Hints="0"
+				SequenceNumber="0"
+>
+				<Position Pos.X="425" Pos.Y="150"/>
+				<Size Size.dX="450" Size.dY="200"/>
+				<ExternalGUID>a582cfa1-cb5d-11e7-65ac-484d7e9a821f</ExternalGUID>
+
+				<CxnOcc CxnOcc.ID="CxnOcc.-6reBR9hfCt_-u-L--7szZQnGvBVA-y-L-34-c"
+					CxnDef.IdRef="CxnDef.51sCS00h_9_-q-L"
+					ToObjOcc.IdRef="ObjOcc.-6reBR9hfCt_-u-L--7BKlyAooWXt-x-L-33-c"
+					Zorder="4"
+					Hints="0"
+					SrcArrow="0"
+					TgtArrow="ST_ARROW_FILLED_PNT">
+					<Pen Color="666666" Style="0" Width="10"/>
+					<Position Pos.X="650" Pos.Y="350"/>
+					<Position Pos.X="650" Pos.Y="500"/>
+					<AttrOcc AttrTypeNum="AT_BPMN_CONDITION_EXPRESSION"
+						Port="N"
+						OrderNum="0"
+						Alignment="CENTER"
+						SymbolFlag="TEXT"
+						FontSS.IdRef="FontSS.-jlcYPOZRLR-c-L"
+						OffsetX="0"
+						OffsetY="0"
+						Rotation="0"
+>
+						<Size Size.dX="0" Size.dY="0"/>
+					</AttrOcc>
+				</CxnOcc>
+				<AttrOcc AttrTypeNum="AT_NAME"
+					Port="CENTER"
+					OrderNum="0"
+					Alignment="CENTER"
+					SymbolFlag="TEXT"
+					FontSS.IdRef="FontSS.-jlcYPOZRLR-c-L"
+					OffsetX="0"
+					OffsetY="0"
+					Rotation="0"
+>
+					<Size Size.dX="0" Size.dY="0"/>
+				</AttrOcc>
+			</ObjOcc>
+			<ObjOcc ObjOcc.ID="ObjOcc.-6reBR9hfCt_-u-L--7BKlyAooWXt-x-L-33-c"
+				ObjDef.IdRef="ObjDef.-6l8tqMxObd7-p-L"
+				ToCxnOccs.IdRefs=" CxnOcc.-6reBR9hfCt_-u-L--3HDlb8c5tnF-y-L-34-c"
+				SymbolNum="ST_FUNC"
+				Flags="0"
+				Zorder="2"
+				Hints="0"
+				SequenceNumber="0"
+>
+				<Position Pos.X="425" Pos.Y="500"/>
+				<Size Size.dX="450" Size.dY="200"/>
+				<ExternalGUID>a582cfa3-cb5d-11e7-65ac-484d7e9a821f</ExternalGUID>
+
+				<CxnOcc CxnOcc.ID="CxnOcc.-6reBR9hfCt_-u-L--3HDlb8c5tnF-y-L-34-c"
+					CxnDef.IdRef="CxnDef.1akv2vKTLdF-q-L"
+					ToObjOcc.IdRef="ObjOcc.-6reBR9hfCt_-u-L-4cWBuYkCnH--x-L-33-c"
+					Zorder="5"
+					Hints="0"
+					SrcArrow="0"
+					TgtArrow="ST_ARROW_FILLED_PNT">
+					<Pen Color="666666" Style="0" Width="10"/>
+					<Position Pos.X="650" Pos.Y="700"/>
+					<Position Pos.X="650" Pos.Y="850"/>
+					<AttrOcc AttrTypeNum="AT_BPMN_CONDITION_EXPRESSION"
+						Port="N"
+						OrderNum="0"
+						Alignment="CENTER"
+						SymbolFlag="TEXT"
+						FontSS.IdRef="FontSS.-jlcYPOZRLR-c-L"
+						OffsetX="0"
+						OffsetY="0"
+						Rotation="0"
+>
+						<Size Size.dX="0" Size.dY="0"/>
+					</AttrOcc>
+					<AttrOcc AttrTypeNum="AT_BPMN_SEQ_FLOW_CONDITION"
+						Port="N"
+						OrderNum="1"
+						Alignment="CENTER"
+						SymbolFlag="TEXT"
+						FontSS.IdRef="FontSS.-jlcYPOZRLR-c-L"
+						OffsetX="0"
+						OffsetY="0"
+						Rotation="0"
+>
+						<Size Size.dX="0" Size.dY="0"/>
+					</AttrOcc>
+				</CxnOcc>
+				<AttrOcc AttrTypeNum="AT_NAME"
+					Port="CENTER"
+					OrderNum="0"
+					Alignment="CENTER"
+					SymbolFlag="TEXT"
+					FontSS.IdRef="FontSS.-jlcYPOZRLR-c-L"
+					OffsetX="0"
+					OffsetY="0"
+					Rotation="0"
+>
+					<Size Size.dX="0" Size.dY="0"/>
+				</AttrOcc>
+			</ObjOcc>
+		</Model>
+	</Group>
+</AML>
