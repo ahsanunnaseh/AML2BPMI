@@ -1,10 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<bpmn2:definitions 
-    xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" 
-    id="Definitions_1" exporter="org.eclipse.bpmn2.modeler.core" 
-    exporterVersion="1.3.0.Final-v20160602-2145-B47" 
-    targetNamespace="http://org.eclipse.bpmn2.modeler.examples.customtask">
-<definitions xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:tl="http://www.w3.org/2001/XMLSchema" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mm="http://org.eclipse.bpmn2.modeler.examples.customtask">
+<?xml version="1.0" encoding="UTF-8"?><bpmn2:definitions id="Definitions_1" exporter="org.eclipse.bpmn2.modeler.core" exporterVersion="1.3.0.Final-v20160602-2145-B47" targetNamespace="http://org.eclipse.bpmn2.modeler.examples.customtask" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:tl="http://www.w3.org/2001/XMLSchema" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:mm="http://org.eclipse.bpmn2.modeler.examples.customtask">
+<bpmn2:process id="Order_process" name="Default Process" isExecutable="false">
+<definitions>
 <definition defId="1"/>
 <definition defId="2"/>
 <definition defId="3"/>
@@ -43,7 +39,7 @@
 <definition defId="36"/>
 <definition defId="37"/>
 </definitions>
-<attributeTypes xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:tl="http://www.w3.org/2001/XMLSchema" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mm="http://org.eclipse.bpmn2.modeler.examples.customtask">
+<attributeTypes>
 <attributeType typeId="GUID"/>
 <attributeType typeId="OT"/>
 <attributeType typeId="ST"/>
@@ -76,10 +72,11 @@
 <attributeType typeId="AT_PERS_RESP"/>
 <attributeType typeId="AT_STATE_1"/>
 </attributeTypes>
-<directory xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:tl="http://www.w3.org/2001/XMLSchema" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mm="http://org.eclipse.bpmn2.modeler.examples.customtask" name="Root">
+<directory name="Root">
 <epc epcId="1" name="&#10;&#9;&#9;&#9;&#9;&#9;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#10;&#9;&#9;&#9;&#9;&#9;&#10;&#9;&#9;&#9;&#9;">
 <attribute typeRef="GUID" value="be3b71d0-c85d-11e7-65ac-484d7e9a821f"/>
-<function id="13" defRef="4">
+            --&gt;					
+            <function id="13" defRef="4">
 <name>
 					
 						
@@ -783,4 +780,5 @@
 </arc>
 </epc>
 </directory>
+</bpmn2:process>
 </bpmn2:definitions>

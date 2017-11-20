@@ -47,48 +47,56 @@
     
 		
     <xsl:template match="/">
-        <xsl:element name="bpmn2:definitions">
-            <xsl:copy-of select=".//namespace::bpmn2[.='http://www.omg.org/spec/BPMN/20100524/MODEL']"/>
-            <xsl:value-of select="catalog/cd/title"/>
-            <xsl:copy-of select=".//namespace::bpmndi[.='http://www.omg.org/spec/BPMN/20100524/DI']"/>
-            <xsl:copy-of select=".//namespace::dc[.='http://www.omg.org/spec/DD/20100524/DC']"/>
-            <xsl:copy-of select=".//namespace::di[.='http://www.omg.org/spec/DD/20100524/DI']"/>
-            <xsl:copy-of select=".//namespace::mm[.='http://org.eclipse.bpmn2.modeler.examples.customtask']"/>
-            <xsl:copy-of select=".//namespace::tl[.='http://www.w3.org/2001/XMLSchema']"/>
-            <xsl:attribute name="id">Definitions_1</xsl:attribute>
-            <xsl:attribute name="exporter">org.eclipse.bpmn2.modeler.core</xsl:attribute>
-            <xsl:attribute name="exporterVersion">1.3.0.Final-v20160602-2145-B47</xsl:attribute>
-            <xsl:attribute name="targetNamespace">http://org.eclipse.bpmn2.modeler.examples.customtask</xsl:attribute>
-
-
-            <definitions>
-                <xsl:for-each select="//*[name()='ObjDef']">
-                    <xsl:element name="definition">
-                        <xsl:attribute name="defId">
-                            <xsl:value-of select="position()"/>
-                        </xsl:attribute>
-                    </xsl:element>
-                </xsl:for-each>
-            </definitions>
-            <attributeTypes>
-                <xsl:if test="//GUID">
+        <bpmn2:definitions 
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+            xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" 
+            xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" 
+            xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" 
+            xmlns:di="http://www.omg.org/spec/DD/20100524/DI" 
+            xmlns:mm="http://org.eclipse.bpmn2.modeler.examples.customtask" 
+            xmlns:tl="http://www.w3.org/2001/XMLSchema" 
+            id="Definitions_1" 
+            exporter="org.eclipse.bpmn2.modeler.core" 
+            exporterVersion="1.3.0.Final-v20160602-2145-B47" 
+            targetNamespace="http://org.eclipse.bpmn2.modeler.examples.customtask">
+            <bpmn2:process id="Order_process" name="Default Process" isExecutable="false">
+                
+                 <!-- Start Event -->
+                 <!-- Start Event -->
+                 <!-- Start Event -->
+                 <!-- Start Event -->
+                 <!-- Start Event -->
+                  <!-- Start Event -->
+                <definitions>
+                    <xsl:for-each select="//*[name()='ObjDef']">
+                        <xsl:element name="definition">
+                            <xsl:attribute name="defId">
+                                <xsl:value-of select="position()"/>
+                            </xsl:attribute>
+                        </xsl:element>
+                    </xsl:for-each>
+                </definitions>
+            
+                <attributeTypes>
+                    <xsl:if test="//GUID">
+                        <xsl:element name="attributeType">
+                            <xsl:attribute name="typeId">GUID</xsl:attribute>
+                        </xsl:element>
+                    </xsl:if>
                     <xsl:element name="attributeType">
-                        <xsl:attribute name="typeId">GUID</xsl:attribute>
+                        <xsl:attribute name="typeId">OT</xsl:attribute>
                     </xsl:element>
-                </xsl:if>
-                <xsl:element name="attributeType">
-                    <xsl:attribute name="typeId">OT</xsl:attribute>
-                </xsl:element>
-                <xsl:element name="attributeType">
-                    <xsl:attribute name="typeId">ST</xsl:attribute>
-                </xsl:element>
-                <xsl:call-template name="distinct"/>
-            </attributeTypes>
-            <directory name="Root">
-                <xsl:apply-templates select="/*/*[name()='Group'][@Group.ID='Group.Root']/*[name()='Model'][@Model.Type='MT_EEPC']" mode="Epc"/>
-                <xsl:apply-templates select="/*/*[name()='Group'][@Group.ID='Group.Root']/*[name()='Group']" mode="Dir"/>
-            </directory>
-        </xsl:element>
+                    <xsl:element name="attributeType">
+                        <xsl:attribute name="typeId">ST</xsl:attribute>
+                    </xsl:element>
+                    <xsl:call-template name="distinct"/>
+                </attributeTypes>
+                <directory name="Root">
+                    <xsl:apply-templates select="/*/*[name()='Group'][@Group.ID='Group.Root']/*[name()='Model'][@Model.Type='MT_EEPC']" mode="Epc"/>
+                    <xsl:apply-templates select="/*/*[name()='Group'][@Group.ID='Group.Root']/*[name()='Group']" mode="Dir"/>
+                </directory>
+            </bpmn2:process>
+        </bpmn2:definitions>
     </xsl:template>
         
     <xsl:template match="*" mode="Dir">
@@ -129,7 +137,8 @@
                         <xsl:value-of select="./GUID"/>
                     </xsl:attribute>
                 </xsl:element>	
-            </xsl:if>					
+            </xsl:if>
+            -->					
             <xsl:apply-templates select="./*[name()='ObjOcc']" mode="Elements"/>
         </xsl:element>
     </xsl:template>
