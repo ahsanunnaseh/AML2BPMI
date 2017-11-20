@@ -50,9 +50,9 @@ public class Transformasi {
         }
     }
     public static void main (String [] args){
-        String inFilename="C:\\Users\\SERG Development\\Documents\\NetBeansProjects\\thesis\\src\\xslt\\data\\sederhana.xml";
-        String xslFilename="C:\\Users\\SERG Development\\Documents\\NetBeansProjects\\thesis\\src\\xslt\\data\\MappingRules.xsl";
-        String outFilename="C:\\Users\\SERG Development\\Documents\\NetBeansProjects\\thesis\\src\\xslt\\data\\out.xml";
+        String inFilename="C:\\Users\\SERG Development\\Documents\\NetBeansProjects\\thesis\\AML2BPMI\\src\\xslt\\data\\aml.xml";
+        String xslFilename="C:\\Users\\SERG Development\\Documents\\NetBeansProjects\\thesis\\AML2BPMI\\src\\xslt\\data\\AML2BPMI.xsl";
+        String outFilename="C:\\Users\\SERG Development\\Documents\\NetBeansProjects\\thesis\\AML2BPMI\\src\\xslt\\data\\out.xml";
         Transformasi.xsl(inFilename, outFilename, xslFilename);
     }
 }

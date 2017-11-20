@@ -30,7 +30,18 @@
     </xsl:variable>
 
     <xsl:template match="/">
-        <bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:mm="http://org.eclipse.bpmn2.modeler.examples.customtask" xmlns:tl="http://www.w3.org/2001/XMLSchema" id="Definitions_1" exporter="org.eclipse.bpmn2.modeler.core" exporterVersion="1.3.0.Final-v20160602-2145-B47" targetNamespace="http://org.eclipse.bpmn2.modeler.examples.customtask">
+        <bpmn2:definitions 
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+            xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" 
+            xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" 
+            xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" 
+            xmlns:di="http://www.omg.org/spec/DD/20100524/DI" 
+            xmlns:mm="http://org.eclipse.bpmn2.modeler.examples.customtask" 
+            xmlns:tl="http://www.w3.org/2001/XMLSchema" 
+            id="Definitions_1" 
+            exporter="org.eclipse.bpmn2.modeler.core" 
+            exporterVersion="1.3.0.Final-v20160602-2145-B47" 
+            targetNamespace="http://org.eclipse.bpmn2.modeler.examples.customtask">
             <bpmn2:process id="Order_process" name="Default Process" isExecutable="false">
                 <definitions>
                     <xsl:for-each select="//*[name()='ObjDef']">
