@@ -1,784 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?><bpmn2:definitions id="Definitions_1" exporter="org.eclipse.bpmn2.modeler.core" exporterVersion="1.3.0.Final-v20160602-2145-B47" targetNamespace="http://org.eclipse.bpmn2.modeler.examples.customtask" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:tl="http://www.w3.org/2001/XMLSchema" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:mm="http://org.eclipse.bpmn2.modeler.examples.customtask">
 <bpmn2:process id="Order_process" name="Default Process" isExecutable="false">
-<definitions>
-<definition defId="1"/>
-<definition defId="2"/>
-<definition defId="3"/>
-<definition defId="4"/>
-<definition defId="5"/>
-<definition defId="6"/>
-<definition defId="7"/>
-<definition defId="8"/>
-<definition defId="9"/>
-<definition defId="10"/>
-<definition defId="11"/>
-<definition defId="12"/>
-<definition defId="13"/>
-<definition defId="14"/>
-<definition defId="15"/>
-<definition defId="16"/>
-<definition defId="17"/>
-<definition defId="18"/>
-<definition defId="19"/>
-<definition defId="20"/>
-<definition defId="21"/>
-<definition defId="22"/>
-<definition defId="23"/>
-<definition defId="24"/>
-<definition defId="25"/>
-<definition defId="26"/>
-<definition defId="27"/>
-<definition defId="28"/>
-<definition defId="29"/>
-<definition defId="30"/>
-<definition defId="31"/>
-<definition defId="32"/>
-<definition defId="33"/>
-<definition defId="34"/>
-<definition defId="35"/>
-<definition defId="36"/>
-<definition defId="37"/>
-</definitions>
-<attributeTypes>
-<attributeType typeId="GUID"/>
-<attributeType typeId="OT"/>
-<attributeType typeId="ST"/>
-<attributeType typeId="AT_ID"/>
-<attributeType typeId="AT_MODEL_AT_GUID"/>
-<attributeType typeId="AT_IMAGE_FILE_BLOB"/>
-<attributeType typeId="AT_COST_RATE_1"/>
-<attributeType typeId="AT_AAM_SIGN_OFF_RELEVANT"/>
-<attributeType typeId="AT_DESC"/>
-<attributeType typeId="AT_MOD_TRANSFORM_MERGE_IDENTIFIERS"/>
-<attributeType typeId="AT_UMC_ID"/>
-<attributeType typeId="AT_SOLAR_END_USR_ROLE_TYPE"/>
-<attributeType typeId="AT_SOLAR_ORIGIN"/>
-<attributeType typeId="AT_SOLAR_ORIGINAL_NAME"/>
-<attributeType typeId="AT_SOLAR_AREA_ID"/>
-<attributeType typeId="AT_TRAIN_TIME_SUM"/>
-<attributeType typeId="AT_WORK_TIME_SUM"/>
-<attributeType typeId="AT_STATUS"/>
-<attributeType typeId="AT_COST_RATE_BUSY"/>
-<attributeType typeId="AT_USAGE_DGR_LAST_SIM"/>
-<attributeType typeId="AT_COST_RATE_IDLE"/>
-<attributeType typeId="AT_FUNC_EXEC"/>
-<attributeType typeId="AT_IMPROVE"/>
-<attributeType typeId="AT_NUM_INTRR_ORIEN"/>
-<attributeType typeId="AT_NUM_INTRR_PRC"/>
-<attributeType typeId="AT_ABS_ACCUMULATED_SCHEDULE_TIME"/>
-<attributeType typeId="AT_ABS_ACCUMULATED_IDLE_TIME"/>
-<attributeType typeId="AT_ABS_ACCUMULATED_OVERTIME"/>
-<attributeType typeId="AT_NUM_OF_EMPL"/>
-<attributeType typeId="AT_PERS_RESP"/>
-<attributeType typeId="AT_STATE_1"/>
-</attributeTypes>
-<directory name="Root">
-<epc epcId="1" name="&#10;&#9;&#9;&#9;&#9;&#9;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#10;&#9;&#9;&#9;&#9;&#9;&#10;&#9;&#9;&#9;&#9;">
-<attribute typeRef="GUID" value="be3b71d0-c85d-11e7-65ac-484d7e9a821f"/>
-            --&gt;					
-            <function id="13" defRef="4">
-<name>
-					
-						
-							
-								
-							
-					
-				</name>
-<description>
-					
-						
-							
-								
-							
-					
-				</description>
-<graphics>
-<position x="1625" y="1400" width="450" height="200"/>
-</graphics>
-<attribute typeRef="GUID" value="2ba69231-c8d7-11e7-65ac-484d7e9a821f"/>
-<attribute typeRef="OT" value="OT_FUNC"/>
-<attribute typeRef="ST" value="ST_FUNC"/>
-</function>
-<arc id="53">
-<flow source="13" target="28"/>
-<graphics>
-<position x="1850" y="1600"/>
-<position x="1850" y="1730"/>
-</graphics>
-<attribute typeRef="GUID" value="2ba69241-c8d7-11e7-65ac-484d7e9a821f"/>
-<attribute typeRef="OT" value="CT_LEADS_TO_1"/>
-</arc>
-<event id="14" defRef="17">
-<name>
-					
-						
-							
-								
-							
-					
-				</name>
-<description>
-					
-						
-							
-								
-							
-					
-				</description>
-<graphics>
-<position x="1325" y="250" width="450" height="200"/>
-</graphics>
-<attribute typeRef="GUID" value="7f59e9ba-c84f-11e7-65ac-484d7e9a821f"/>
-<attribute typeRef="OT" value="OT_EVT"/>
-<attribute typeRef="ST" value="ST_EV"/>
-</event>
-<arc id="54">
-<flow source="14" target="29"/>
-<graphics>
-<position x="1550" y="450"/>
-<position x="1550" y="550"/>
-</graphics>
-<attribute typeRef="GUID" value="7f59e9bc-c84f-11e7-65ac-484d7e9a821f"/>
-<attribute typeRef="OT" value="CT_ACTIV_1"/>
-</arc>
-<xor id="15" defRef="7">
-<name>
-					
-						
-							
-								
-							
-					
-				</name>
-<description>
-					
-						
-							
-								
-							
-					
-				</description>
-<graphics>
-<position x="1480" y="880" width="140" height="140"/>
-</graphics>
-<attribute typeRef="GUID" value="7f59e9ca-c84f-11e7-65ac-484d7e9a821f"/>
-<attribute typeRef="OT" value="OT_RULE"/>
-<attribute typeRef="ST" value="ST_OPR_XOR_1"/>
-</xor>
-<arc id="55">
-<flow source="15" target="25"/>
-<graphics>
-<position x="1620" y="950"/>
-<position x="1850" y="950"/>
-<position x="1850" y="1100"/>
-</graphics>
-<attribute typeRef="GUID" value="2ba69230-c8d7-11e7-65ac-484d7e9a821f"/>
-<attribute typeRef="OT" value="CT_LEADS_TO_2"/>
-</arc>
-<arc id="56">
-<flow source="15" target="17"/>
-<graphics>
-<position x="1480" y="950"/>
-<position x="1200" y="950"/>
-<position x="1200" y="1100"/>
-</graphics>
-<attribute typeRef="GUID" value="2ba077b0-c8d7-11e7-65ac-484d7e9a821f"/>
-<attribute typeRef="OT" value="CT_LEADS_TO_2"/>
-</arc>
-<event id="16" defRef="5">
-<name>
-					
-						
-							
-								
-							
-					
-				</name>
-<description>
-					
-						
-							
-								
-							
-					
-				</description>
-<graphics>
-<position x="1175" y="1950" width="450" height="200"/>
-</graphics>
-<attribute typeRef="GUID" value="2ba6923d-c8d7-11e7-65ac-484d7e9a821f"/>
-<attribute typeRef="OT" value="OT_EVT"/>
-<attribute typeRef="ST" value="ST_EV"/>
-</event>
-<arc id="57">
-<flow source="16" target="23"/>
-<graphics>
-<position x="1400" y="2150"/>
-<position x="1400" y="2680"/>
-</graphics>
-<attribute typeRef="GUID" value="2ba6924f-c8d7-11e7-65ac-484d7e9a821f"/>
-<attribute typeRef="OT" value="CT_IS_EVAL_BY_1"/>
-</arc>
-<event id="17" defRef="3">
-<name>
-					
-						
-							
-								
-							
-					
-				</name>
-<description>
-					
-						
-							
-								
-							
-					
-				</description>
-<graphics>
-<position x="975" y="1100" width="450" height="200"/>
-</graphics>
-<attribute typeRef="GUID" value="7f59e9cd-c84f-11e7-65ac-484d7e9a821f"/>
-<attribute typeRef="OT" value="OT_EVT"/>
-<attribute typeRef="ST" value="ST_EV"/>
-</event>
-<participant id="18" defRef="12">
-<name>
-					
-						
-							
-								
-							
-					
-				</name>
-<description>
-					
-						
-							
-								
-							
-					
-				</description>
-<graphics>
-<position x="2395" y="1282" width="450" height="150"/>
-</graphics>
-<attribute typeRef="AT_AAM_SIGN_OFF_RELEVANT" value="false"/>
-<attribute typeRef="GUID" value="14509ea7-517a-11dc-2729-000bcd0cce4e"/>
-<attribute typeRef="OT" value="OT_ORG_UNIT"/>
-<attribute typeRef="ST" value="ST_ORG_UNIT_2"/>
-</participant>
-<relation id="58" from="18" to="13">
-<graphics>
-<position x="2395" y="1350"/>
-<position x="2250" y="1350"/>
-<position x="2250" y="1500"/>
-<position x="2075" y="1500"/>
-</graphics>
-<attribute typeRef="GUID" value="2ba69239-c8d7-11e7-65ac-484d7e9a821f"/>
-<attribute typeRef="OT" value="CT_IS_TECH_RESP_1"/>
-</relation>
-<event id="19" defRef="32">
-<name>
-					
-						
-							
-								
-							
-					
-				</name>
-<description>
-					
-						
-							
-								
-							
-					
-				</description>
-<graphics>
-<position x="1975" y="1950" width="450" height="200"/>
-</graphics>
-<attribute typeRef="GUID" value="2ba6923f-c8d7-11e7-65ac-484d7e9a821f"/>
-<attribute typeRef="OT" value="OT_EVT"/>
-<attribute typeRef="ST" value="ST_EV"/>
-</event>
-<arc id="59">
-<flow source="19" target="30"/>
-<graphics>
-<position x="2250" y="2150"/>
-<position x="2250" y="2251"/>
-</graphics>
-<attribute typeRef="GUID" value="2ba69248-c8d7-11e7-65ac-484d7e9a821f"/>
-<attribute typeRef="OT" value="CT_ACTIV_1"/>
-</arc>
-<application id="20" defRef="30">
-<name>
-					
-						
-							
-								
-							
-					
-				</name>
-<description>
-					
-						
-							
-								
-							
-					
-				</description>
-<graphics>
-<position x="2275" y="725" width="450" height="150"/>
-</graphics>
-<attribute typeRef="GUID" value="7f59e9c6-c84f-11e7-65ac-484d7e9a821f"/>
-<attribute typeRef="OT" value="OT_INFO_ELEMENT"/>
-<attribute typeRef="ST" value="ST_INFO_ELEMENT"/>
-</application>
-<relation id="60" from="20" to="29">
-<graphics>
-<position x="2275" y="800"/>
-<position x="2050" y="800"/>
-<position x="2050" y="650"/>
-<position x="1775" y="650"/>
-</graphics>
-<attribute typeRef="GUID" value="7f59e9c9-c84f-11e7-65ac-484d7e9a821f"/>
-<attribute typeRef="OT" value="CT_IS_INP_FOR"/>
-</relation>
-<function id="21" defRef="13">
-<name>
-					
-						
-							
-								
-							
-					
-				</name>
-<description>
-					
-						
-							
-								
-							
-					
-				</description>
-<graphics>
-<position x="1125" y="2900" width="450" height="200"/>
-</graphics>
-<attribute typeRef="GUID" value="2ba69255-c8d7-11e7-65ac-484d7e9a821f"/>
-<attribute typeRef="OT" value="OT_FUNC"/>
-<attribute typeRef="ST" value="ST_FUNC"/>
-</function>
-<arc id="61">
-<flow source="21" target="33"/>
-<graphics>
-<position x="1350" y="3100"/>
-<position x="1350" y="3200"/>
-</graphics>
-<attribute typeRef="GUID" value="2ba69258-c8d7-11e7-65ac-484d7e9a821f"/>
-<attribute typeRef="OT" value="CT_CRT_1"/>
-</arc>
-<participant id="22" defRef="18">
-<name>
-					
-						
-							
-								
-							
-					
-				</name>
-<description>
-					
-						
-							
-								
-							
-					
-				</description>
-<graphics>
-<position x="2725" y="2375" width="450" height="150"/>
-</graphics>
-<attribute typeRef="GUID" value="2ba69246-c8d7-11e7-65ac-484d7e9a821f"/>
-<attribute typeRef="OT" value="OT_ORG_UNIT"/>
-<attribute typeRef="ST" value="ST_ORG_UNIT_2"/>
-</participant>
-<relation id="62" from="22" to="30">
-<graphics>
-<position x="2725" y="2450"/>
-<position x="2504" y="2450"/>
-</graphics>
-<attribute typeRef="GUID" value="2ba69249-c8d7-11e7-65ac-484d7e9a821f"/>
-<attribute typeRef="OT" value="CT_IS_TECH_RESP_1"/>
-</relation>
-<xor id="23" defRef="23">
-<name>
-					
-						
-							
-								
-							
-					
-				</name>
-<description>
-					
-						
-							
-								
-							
-					
-				</description>
-<graphics>
-<position x="1330" y="2680" width="140" height="140"/>
-</graphics>
-<attribute typeRef="GUID" value="2ba6924d-c8d7-11e7-65ac-484d7e9a821f"/>
-<attribute typeRef="OT" value="OT_RULE"/>
-<attribute typeRef="ST" value="ST_OPR_XOR_1"/>
-</xor>
-<arc id="63">
-<flow source="23" target="21"/>
-<graphics>
-<position x="1400" y="2820"/>
-<position x="1400" y="2900"/>
-</graphics>
-<attribute typeRef="GUID" value="2ba69257-c8d7-11e7-65ac-484d7e9a821f"/>
-<attribute typeRef="OT" value="CT_ACTIV_1"/>
-</arc>
-<participant id="24" defRef="12">
-<name>
-					
-						
-							
-								
-							
-					
-				</name>
-<description>
-					
-						
-							
-								
-							
-					
-				</description>
-<graphics>
-<position x="2275" y="475" width="450" height="150"/>
-</graphics>
-<attribute typeRef="AT_AAM_SIGN_OFF_RELEVANT" value="false"/>
-<attribute typeRef="GUID" value="14509ea7-517a-11dc-2729-000bcd0cce4e"/>
-<attribute typeRef="OT" value="OT_ORG_UNIT"/>
-<attribute typeRef="ST" value="ST_ORG_UNIT_2"/>
-</participant>
-<relation id="64" from="24" to="29">
-<graphics>
-<position x="2275" y="550"/>
-<position x="2050" y="550"/>
-<position x="2050" y="650"/>
-<position x="1775" y="650"/>
-</graphics>
-<attribute typeRef="GUID" value="7f59e9c8-c84f-11e7-65ac-484d7e9a821f"/>
-<attribute typeRef="OT" value="CT_IS_TECH_RESP_1"/>
-</relation>
-<event id="25" defRef="8">
-<name>
-					
-						
-							
-								
-							
-					
-				</name>
-<description>
-					
-						
-							
-								
-							
-					
-				</description>
-<graphics>
-<position x="1625" y="1100" width="450" height="200"/>
-</graphics>
-<attribute typeRef="GUID" value="7f59e9cf-c84f-11e7-65ac-484d7e9a821f"/>
-<attribute typeRef="OT" value="OT_EVT"/>
-<attribute typeRef="ST" value="ST_EV"/>
-</event>
-<arc id="65">
-<flow source="25" target="13"/>
-<graphics>
-<position x="1850" y="1300"/>
-<position x="1850" y="1400"/>
-</graphics>
-<attribute typeRef="GUID" value="2ba69238-c8d7-11e7-65ac-484d7e9a821f"/>
-<attribute typeRef="OT" value="CT_ACTIV_1"/>
-</arc>
-<HELPMEPLEASE id="26" defRef="29">
-<name>
-					
-						
-							
-								
-							
-					
-				</name>
-<description>
-					
-						
-							
-								
-							
-					
-				</description>
-<graphics>
-<position x="2425" y="1525" width="450" height="150"/>
-</graphics>
-<attribute typeRef="GUID" value="89679e91-c8d8-11e7-65ac-484d7e9a821f"/>
-<attribute typeRef="OT" value="OT_DP_FUNC_TYPE"/>
-<attribute typeRef="ST" value="ST_DP_FUNC_TYPE"/>
-</HELPMEPLEASE>
-<relation id="66" from="26" to="13">
-<graphics>
-<position x="2425" y="1600"/>
-<position x="2250" y="1600"/>
-<position x="2250" y="1500"/>
-<position x="2075" y="1500"/>
-</graphics>
-<attribute typeRef="GUID" value="89679e93-c8d8-11e7-65ac-484d7e9a821f"/>
-<attribute typeRef="OT" value="CT_SUPP_3"/>
-</relation>
-<function id="27" defRef="6">
-<name>
-					
-						
-							
-								
-							
-					
-				</name>
-<description>
-					
-						
-							
-								
-							
-					
-				</description>
-<graphics>
-<position x="1125" y="3500" width="450" height="200"/>
-</graphics>
-<attribute typeRef="GUID" value="2ba69259-c8d7-11e7-65ac-484d7e9a821f"/>
-<attribute typeRef="OT" value="OT_FUNC"/>
-<attribute typeRef="ST" value="ST_FUNC"/>
-</function>
-<arc id="67">
-<flow source="27" target="32"/>
-<graphics>
-<position x="1350" y="3700"/>
-<position x="1350" y="3800"/>
-</graphics>
-<attribute typeRef="GUID" value="2ba6925e-c8d7-11e7-65ac-484d7e9a821f"/>
-<attribute typeRef="OT" value="CT_CRT_1"/>
-</arc>
-<xor id="28" defRef="22">
-<name>
-					
-						
-							
-								
-							
-					
-				</name>
-<description>
-					
-						
-							
-								
-							
-					
-				</description>
-<graphics>
-<position x="1780" y="1730" width="140" height="140"/>
-</graphics>
-<attribute typeRef="GUID" value="2ba6923b-c8d7-11e7-65ac-484d7e9a821f"/>
-<attribute typeRef="OT" value="OT_RULE"/>
-<attribute typeRef="ST" value="ST_OPR_XOR_1"/>
-</xor>
-<arc id="68">
-<flow source="28" target="16"/>
-<graphics>
-<position x="1780" y="1800"/>
-<position x="1400" y="1800"/>
-<position x="1400" y="1950"/>
-</graphics>
-<attribute typeRef="GUID" value="2ba69242-c8d7-11e7-65ac-484d7e9a821f"/>
-<attribute typeRef="OT" value="CT_LEADS_TO_2"/>
-</arc>
-<arc id="69">
-<flow source="28" target="19"/>
-<graphics>
-<position x="1920" y="1800"/>
-<position x="2200" y="1800"/>
-<position x="2200" y="1950"/>
-</graphics>
-<attribute typeRef="GUID" value="2ba69243-c8d7-11e7-65ac-484d7e9a821f"/>
-<attribute typeRef="OT" value="CT_LEADS_TO_2"/>
-</arc>
-<function id="29" defRef="10">
-<name>
-					
-						
-							
-								
-							
-					
-				</name>
-<description>
-					
-						
-							
-								
-							
-					
-				</description>
-<graphics>
-<position x="1325" y="550" width="450" height="200"/>
-</graphics>
-<attribute typeRef="GUID" value="7f59e9b8-c84f-11e7-65ac-484d7e9a821f"/>
-<attribute typeRef="OT" value="OT_FUNC"/>
-<attribute typeRef="ST" value="ST_FUNC"/>
-</function>
-<arc id="70">
-<flow source="29" target="15"/>
-<graphics>
-<position x="1550" y="750"/>
-<position x="1550" y="880"/>
-</graphics>
-<attribute typeRef="GUID" value="7f59e9cc-c84f-11e7-65ac-484d7e9a821f"/>
-<attribute typeRef="OT" value="CT_LEADS_TO_1"/>
-</arc>
-<function id="30" defRef="9">
-<name>
-					
-						
-							
-								
-							
-					
-				</name>
-<description>
-					
-						
-							
-								
-							
-					
-				</description>
-<graphics>
-<position x="1996" y="2251" width="509" height="299"/>
-</graphics>
-<attribute typeRef="GUID" value="2ba69244-c8d7-11e7-65ac-484d7e9a821f"/>
-<attribute typeRef="OT" value="OT_FUNC"/>
-<attribute typeRef="ST" value="ST_PRCS_IF"/>
-</function>
-<arc id="71">
-<flow source="30" target="31"/>
-<graphics>
-<position x="2300" y="2550"/>
-<position x="2300" y="2650"/>
-</graphics>
-<attribute typeRef="GUID" value="2ba6924c-c8d7-11e7-65ac-484d7e9a821f"/>
-<attribute typeRef="OT" value="CT_CRT_1"/>
-</arc>
-<event id="31" defRef="15">
-<name>
-					
-						
-							
-								
-							
-					
-				</name>
-<description>
-					
-						
-							
-								
-							
-					
-				</description>
-<graphics>
-<position x="2075" y="2650" width="450" height="200"/>
-</graphics>
-<attribute typeRef="GUID" value="2ba6924a-c8d7-11e7-65ac-484d7e9a821f"/>
-<attribute typeRef="OT" value="OT_EVT"/>
-<attribute typeRef="ST" value="ST_EV"/>
-</event>
-<arc id="72">
-<flow source="31" target="23"/>
-<graphics>
-<position x="2075" y="2750"/>
-<position x="1470" y="2750"/>
-</graphics>
-<attribute typeRef="GUID" value="2ba69250-c8d7-11e7-65ac-484d7e9a821f"/>
-<attribute typeRef="OT" value="CT_IS_EVAL_BY_1"/>
-</arc>
-<event id="32" defRef="24">
-<name>
-					
-						
-							
-								
-							
-					
-				</name>
-<description>
-					
-						
-							
-								
-							
-					
-				</description>
-<graphics>
-<position x="1125" y="3800" width="450" height="200"/>
-</graphics>
-<attribute typeRef="GUID" value="2ba6925c-c8d7-11e7-65ac-484d7e9a821f"/>
-<attribute typeRef="OT" value="OT_EVT"/>
-<attribute typeRef="ST" value="ST_EV"/>
-</event>
-<event id="33" defRef="19">
-<name>
-					
-						
-							
-								
-							
-					
-				</name>
-<description>
-					
-						
-							
-								
-							
-					
-				</description>
-<graphics>
-<position x="1125" y="3200" width="450" height="200"/>
-</graphics>
-<attribute typeRef="GUID" value="2ba69251-c8d7-11e7-65ac-484d7e9a821f"/>
-<attribute typeRef="OT" value="OT_EVT"/>
-<attribute typeRef="ST" value="ST_EV"/>
-</event>
-<arc id="73">
-<flow source="33" target="27"/>
-<graphics>
-<position x="1350" y="3400"/>
-<position x="1350" y="3500"/>
-</graphics>
-<attribute typeRef="GUID" value="2ba6925b-c8d7-11e7-65ac-484d7e9a821f"/>
-<attribute typeRef="OT" value="CT_ACTIV_1"/>
-</arc>
-</epc>
-</directory>
+<bpmn2:startEvent id="$ID_EVENT" name="End Event">
+<bpmn2:outgoing>ObjDef.-20A38O-uhSI-p-L</bpmn2:outgoing>
+</bpmn2:startEvent>
+<bpmn2:startEvent id="$ID_EVENT" name="End Event">
+<bpmn2:outgoing>ObjDef.-7s1OJBNpeFy-p-L</bpmn2:outgoing>
+</bpmn2:startEvent>
+<bpmn2:startEvent id="$ID_EVENT" name="End Event">
+<bpmn2:outgoing>ObjDef.7dAQ-ayjA2x-p-L</bpmn2:outgoing>
+</bpmn2:startEvent>
+<bpmn2:startEvent id="$ID_EVENT" name="Start">
+<bpmn2:outgoing>ObjDef.-1G7_LdQfCjy-p-L</bpmn2:outgoing>
+</bpmn2:startEvent>
+<bpmn2:startEvent id="$ID_EVENT" name="End Event">
+<bpmn2:outgoing>ObjDef.-6UxkGWWZ5u8-p-L</bpmn2:outgoing>
+</bpmn2:startEvent>
+<bpmn2:startEvent id="$ID_EVENT" name="End Event">
+<bpmn2:outgoing>ObjDef.-1wxlUx2m-9N-p-L</bpmn2:outgoing>
+</bpmn2:startEvent>
+<bpmn2:startEvent id="$ID_EVENT" name="End Event">
+<bpmn2:outgoing>ObjDef.2G-jj5LEqzS-p-L</bpmn2:outgoing>
+</bpmn2:startEvent>
+<bpmn2:startEvent id="$ID_EVENT" name="Start">
+<bpmn2:outgoing>ObjDef.3OtTkuRfY0C-p-L</bpmn2:outgoing>
+</bpmn2:startEvent>
+<bpmn2:startEvent id="$ID_EVENT" name="End Event">
+<bpmn2:outgoing>ObjDef.5RhWVg_wIem-p-L</bpmn2:outgoing>
+</bpmn2:startEvent>
+<bpmn2:startEvent id="$ID_EVENT" name="End Event">
+<bpmn2:outgoing>ObjDef.-oxYvXis7e8-p-L</bpmn2:outgoing>
+</bpmn2:startEvent>
+<bpmn2:startEvent id="$ID_EVENT" name="End Event">
+<bpmn2:outgoing>ObjDef.-7s1OJBNpeFy-p-L</bpmn2:outgoing>
+</bpmn2:startEvent>
+<bpmn2:startEvent id="$ID_EVENT" name="End Event">
+<bpmn2:outgoing>ObjDef.-20A38O-uhSI-p-L</bpmn2:outgoing>
+</bpmn2:startEvent>
+<bpmn2:startEvent id="$ID_EVENT" name="End Event">
+<bpmn2:outgoing>ObjDef.3OtTkuRfY0C-p-L</bpmn2:outgoing>
+</bpmn2:startEvent>
+<bpmn2:startEvent id="$ID_EVENT" name="End Event">
+<bpmn2:outgoing>ObjDef.-2BI0phfUOk2-p-L</bpmn2:outgoing>
+</bpmn2:startEvent>
+<bpmn2:startEvent id="$ID_EVENT" name="End Event">
+<bpmn2:outgoing>ObjDef.-6uscT06aEKk-p-L</bpmn2:outgoing>
+</bpmn2:startEvent>
+<bpmn2:startEvent id="$ID_EVENT" name="End Event">
+<bpmn2:outgoing>ObjDef.-7Bs6TRqz_R5-p-L</bpmn2:outgoing>
+</bpmn2:startEvent>
+<bpmn2:startEvent id="$ID_EVENT" name="End Event">
+<bpmn2:outgoing>ObjDef.5Wo0EY6cAQQ-p-L</bpmn2:outgoing>
+</bpmn2:startEvent>
+<bpmn2:startEvent id="$ID_EVENT" name="Start">
+<bpmn2:outgoing>ObjDef.-1G7_LdQfCjy-p-L</bpmn2:outgoing>
+</bpmn2:startEvent>
+<bpmn2:startEvent id="$ID_EVENT" name="End Event">
+<bpmn2:outgoing>ObjDef.-7Bs6TRqz_R5-p-L</bpmn2:outgoing>
+</bpmn2:startEvent>
+<bpmn2:startEvent id="$ID_EVENT" name="End Event">
+<bpmn2:outgoing>ObjDef.-4ctP-tB19Oe-p-L</bpmn2:outgoing>
+</bpmn2:startEvent>
+<bpmn2:startEvent id="$ID_EVENT" name="End Event">
+<bpmn2:outgoing>ObjDef.-4m0aC0EEfOU-p-L</bpmn2:outgoing>
+</bpmn2:startEvent>
+<bpmn2:startEvent id="$ID_EVENT" name="End Event">
+<bpmn2:outgoing>ObjDef.-2BI0phfUOk2-p-L</bpmn2:outgoing>
+</bpmn2:startEvent>
+<bpmn2:startEvent id="$ID_EVENT" name="End Event">
+<bpmn2:outgoing>ObjDef.3a0wGm0eFt1-p-L</bpmn2:outgoing>
+</bpmn2:startEvent>
+<bpmn2:startEvent id="$ID_EVENT" name="Start">
+<bpmn2:outgoing>ObjDef.6rXvCd8gRgd-p-L</bpmn2:outgoing>
+</bpmn2:startEvent>
+<bpmn2:startEvent id="$ID_EVENT" name="End Event">
+<bpmn2:outgoing>ObjDef.-4kaJYfjlq94-p-L</bpmn2:outgoing>
+</bpmn2:startEvent>
+<bpmn2:startEvent id="$ID_EVENT" name="End Event">
+<bpmn2:outgoing>ObjDef.IfndbzPCMY-p-L</bpmn2:outgoing>
+</bpmn2:startEvent>
+<bpmn2:startEvent id="$ID_EVENT" name="End Event">
+<bpmn2:outgoing>ObjDef.7ymSwnyjSPb-p-L</bpmn2:outgoing>
+</bpmn2:startEvent>
+<bpmn2:startEvent id="$ID_EVENT" name="End Event">
+<bpmn2:outgoing>ObjDef.7E_LOAWeaG--p-L</bpmn2:outgoing>
+</bpmn2:startEvent>
+<bpmn2:startEvent id="$ID_EVENT" name="End Event">
+<bpmn2:outgoing>ObjDef.-7Bs6TRqz_R5-p-L</bpmn2:outgoing>
+</bpmn2:startEvent>
+<bpmn2:startEvent id="$ID_EVENT" name="End Event">
+<bpmn2:outgoing>ObjDef.1wtNV9ef4ND-p-L</bpmn2:outgoing>
+</bpmn2:startEvent>
+<bpmn2:startEvent id="$ID_EVENT" name="End Event">
+<bpmn2:outgoing>ObjDef.3OtTkuRfY0C-p-L</bpmn2:outgoing>
+</bpmn2:startEvent>
+<bpmn2:startEvent id="$ID_EVENT" name="End Event">
+<bpmn2:outgoing>ObjDef.-2BI0phfUOk2-p-L</bpmn2:outgoing>
+</bpmn2:startEvent>
+<bpmn2:startEvent id="$ID_EVENT" name="End Event">
+<bpmn2:outgoing>ObjDef.1wtNV9ef4ND-p-L</bpmn2:outgoing>
+</bpmn2:startEvent>
+<bpmn2:startEvent id="$ID_EVENT" name="End Event">
+<bpmn2:outgoing>ObjDef.-37OCFy27Xzn-p-L</bpmn2:outgoing>
+</bpmn2:startEvent>
+<bpmn2:startEvent id="$ID_EVENT" name="End Event">
+<bpmn2:outgoing>ObjDef.-1XxpxiZwv-2-p-L</bpmn2:outgoing>
+</bpmn2:startEvent>
+<bpmn2:startEvent id="$ID_EVENT" name="End Event">
+<bpmn2:outgoing>ObjDef.-4SztV7X8rm_-p-L</bpmn2:outgoing>
+</bpmn2:startEvent>
+<bpmn2:startEvent id="$ID_EVENT" name="Start">
+<bpmn2:outgoing>ObjDef.3a0wGm0eFt1-p-L</bpmn2:outgoing>
+</bpmn2:startEvent>
+<bpmn2:startEvent id="$ID_EVENT" name="End Event">
+<bpmn2:outgoing>ObjDef.1wtNV9ef4ND-p-L</bpmn2:outgoing>
+</bpmn2:startEvent>
+<bpmn2:endEvent id="EndEvent_1" name="End">
+<bpmn2:incoming>SequenceFlow_10</bpmn2:incoming>
+</bpmn2:endEvent>
+<bpmn2:task id="Task_10" mm:type="MyTask" name="Receive Request">
+<bpmn2:extensionElements>
+<mm:taskConfig>
+<mm:parameter xsi:type="mm:Parameter" name="txt_AnnotationEffect" value="exists(A,exists(B,exists(C,&amp;(object(D,A,request,countable,na,eq,1)-1/2,&amp;(object(D,B,operator,countable,na,eq,1)-1/7,predicate(D,C,accept,B,A)-1/4)))))&#10;&#10;"/>
+<mm:parameter xsi:type="mm:Parameter" name="txt_ImmediateEffect" value="A request is accepted by an operator."/>
+</mm:taskConfig>
+</bpmn2:extensionElements>
+<bpmn2:incoming>SequenceFlow_13</bpmn2:incoming>
+<bpmn2:outgoing>SequenceFlow_17</bpmn2:outgoing>
+</bpmn2:task>
+<bpmn2:parallelGateway id="ParallelGateway_1" gatewayDirection="Diverging">
+<bpmn2:incoming>SequenceFlow_21</bpmn2:incoming>
+<bpmn2:outgoing>SequenceFlow_22</bpmn2:outgoing>
+<bpmn2:outgoing>SequenceFlow_23</bpmn2:outgoing>
+</bpmn2:parallelGateway>
+<bpmn2:exclusiveGateway id="ExclusiveGateway_1" gatewayDirection="Diverging">
+<bpmn2:incoming>SequenceFlow_18</bpmn2:incoming>
+<bpmn2:outgoing>SequenceFlow_19</bpmn2:outgoing>
+<bpmn2:outgoing>SequenceFlow_20</bpmn2:outgoing>
+</bpmn2:exclusiveGateway>
+<bpmn2:sequenceFlow id="SequenceFlow_10" sourceRef="ExclusiveGateway_2" targetRef="EndEvent_1"/>
 </bpmn2:process>
-</bpmn2:definitions>
+</bpmn2:definitions><bpmndi:BPMNDiagram id="BPMNDiagram_1" name="Default Process Diagram" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:tl="http://www.w3.org/2001/XMLSchema" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:mm="http://org.eclipse.bpmn2.modeler.examples.customtask">
+<bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Order_process">
+<bpmndi:BPMNShape id="BPMNShape_Task_8" bpmnElement="Task_8" isExpanded="true">
+<dc:Bounds height="50.0" width="110.0" x="260.0" y="287.0"/>
+<bpmndi:BPMNLabel id="BPMNLabel_12">
+<dc:Bounds height="15.0" width="86.0" x="272.0" y="304.0"/>
+</bpmndi:BPMNLabel>
+</bpmndi:BPMNShape>
+<bpmndi:BPMNEdge id="BPMNEdge_SequenceFlow_10" bpmnElement="SequenceFlow_10" sourceElement="BPMNShape_ExclusiveGateway_2" targetElement="BPMNShape_2">
+<di:waypoint xsi:type="dc:Point" x="595.0" y="230.0"/>
+<di:waypoint xsi:type="dc:Point" x="595.0" y="245.0"/>
+<di:waypoint xsi:type="dc:Point" x="595.0" y="260.0"/>
+<bpmndi:BPMNLabel id="BPMNLabel_21"/>
+</bpmndi:BPMNEdge>
+</bpmndi:BPMNPlane>
+</bpmndi:BPMNDiagram>

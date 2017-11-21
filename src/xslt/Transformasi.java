@@ -15,7 +15,7 @@ import javax.xml.transform.*;
 import javax.xml.transform.stream.*;
 
 public class Transformasi {
-    // This method applies the xslFilename to inFilename and writes
+    // This  method applies the xslFilename to inFilename and writes
     // the output to outFilename.
     public static void xsl(String inFilename, String outFilename, String xslFilename) {
         try {
@@ -50,9 +50,9 @@ public class Transformasi {
         }
     }
     public static void main (String [] args){
-        String inFilename="C:\\Users\\SERG Development\\Documents\\NetBeansProjects\\thesis\\AML2BPMI\\src\\xslt\\data\\aml.xml";
-        String xslFilename="C:\\Users\\SERG Development\\Documents\\NetBeansProjects\\thesis\\AML2BPMI\\src\\xslt\\data\\AML2BPMI.xsl";
-        String outFilename="C:\\Users\\SERG Development\\Documents\\NetBeansProjects\\thesis\\AML2BPMI\\src\\xslt\\data\\out.xml";
+        String inFilename="C:\\Users\\SERG Development\\Documents\\NetBeansProjects\\thesis\\AML2BPMIV2\\src\\xslt\\data\\aml.xml";
+        String xslFilename="C:\\Users\\SERG Development\\Documents\\NetBeansProjects\\thesis\\AML2BPMIV2\\src\\xslt\\data\\AML2BPMI.xsl";
+        String outFilename="C:\\Users\\SERG Development\\Documents\\NetBeansProjects\\thesis\\AML2BPMIV2\\src\\xslt\\data\\out.xml";
         Transformasi.xsl(inFilename, outFilename, xslFilename);
     }
 }
