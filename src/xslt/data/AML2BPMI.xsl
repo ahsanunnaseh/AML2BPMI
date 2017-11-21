@@ -69,6 +69,17 @@
                 c. SymbolNum="ST_EV"
                 d. Start Event bisa lebih dari satu-->
                 <xsl:for-each select="AML/Group/ObjDef">
+                    <!--
+                    <xsl:if test="(@TypeNum='OT_EVT') and (@SymbolNum='ST_EV') and boolean(@ToCxnDefs.IdRefs)">
+                        <xsl:for-each select="CxnDef"> 
+                            <bpmn2:startEvent id="$ID_EVENT" name="Start">
+                                <bpmn2:outgoing>
+                                    <xsl:value-of select="@ToObjDef.IdRef"/>
+                                </bpmn2:outgoing>
+                            </bpmn2:startEvent>
+                        </xsl:for-each> 
+                    </xsl:if> -->
+               <!--         
                     <xsl:choose>
                         <xsl:when test="(@TypeNum='OT_EVT') and (@SymbolNum='ST_EV') and boolean(@ToCxnDefs.IdRefs)">
                             <xsl:for-each select="CxnDef"> 
@@ -88,7 +99,7 @@
                                 </bpmn2:startEvent>
                             </xsl:for-each> 
                         </xsl:otherwise>
-                    </xsl:choose>     
+                    </xsl:choose>     -->
                 </xsl:for-each>
      
                
