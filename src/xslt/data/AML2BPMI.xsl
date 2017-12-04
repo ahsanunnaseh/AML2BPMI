@@ -69,44 +69,47 @@
                 c. SymbolNum="ST_EV"
                 d. Start Event bisa lebih dari satu-->
                 <xsl:for-each select="AML/Group/ObjDef">
-                    
+                    <!--
                     <xsl:if test="(@TypeNum='OT_EVT') and (@SymbolNum='ST_EV') and boolean(not(@ToCxnDefs.IdRefs))">
                         <xsl:for-each select="CxnDef"> 
-                            <bpmn2:startEvent id="$ID_EVENT" name="Start">
+                            <xsl:element name="bpmn2:startEvent">
+                                <xsl:value-of select="artist" />
+                                <xsl:element name="bpmn2:outgoing">
+                                    <xsl:value-of select="@ToObjDef.IdRef"/>  
+                                </xsl:element> 
+                            </xsl:element> 
+                        </xsl:for-each>
+                    </xsl:if> -->
+                    
+                    <xsl:if test="(@TypeNum='OT_EVT') and (@SymbolNum='ST_EV') and boolean(not(@ToCxnDefs.IdRefs))">
+                        <bpmn2:startEvent id="{@ObjDef.ID}" name="Start">  
+                            <xsl:for-each select="CxnDef"> 
                                 <bpmn2:outgoing>
                                     <xsl:value-of select="@ToObjDef.IdRef"/>
                                 </bpmn2:outgoing>
-                            </bpmn2:startEvent>
-                        </xsl:for-each> 
+                            </xsl:for-each> 
+                        </bpmn2:startEvent>
                     </xsl:if>
-               <!--         
-                    <xsl:choose>
-                        <xsl:when test="(@TypeNum='OT_EVT') and (@SymbolNum='ST_EV') and boolean(@ToCxnDefs.IdRefs)">
-                            <xsl:for-each select="CxnDef"> 
-                                <bpmn2:startEvent id="$ID_EVENT" name="Start">
-                                    <bpmn2:outgoing>
-                                        <xsl:value-of select="@ToObjDef.IdRef"/>
-                                    </bpmn2:outgoing>
-                                </bpmn2:startEvent>
-                            </xsl:for-each> 
-                        </xsl:when>
-                        <xsl:otherwise>
-                            <xsl:for-each select="CxnDef"> 
-                                <bpmn2:startEvent id="$ID_EVENT" name="End Event">
-                                    <bpmn2:outgoing>
-                                        <xsl:value-of select="@ToObjDef.IdRef"/>
-                                    </bpmn2:outgoing>
-                                </bpmn2:startEvent>
-                            </xsl:for-each> 
-                        </xsl:otherwise>
-                    </xsl:choose>     -->
+  
+                    
+                    <!-- End Event-->
+                    <!-- 2. Rule 2 End Event ==> Event Without Outgoing Control Flow-->
+                    <xsl:if test="(@TypeNum='OT_EVT') and (@SymbolNum='ST_EV') and boolean(@ToCxnDefs.IdRefs) and boolean(not(CxnDef/@ToObjDef.IdRef))">
+                        <!--    <xsl:variable name="ID_END_EVENT" select="@ObjDef.ID"> -->
+                        <xsl:for-each select="CxnDef"> 
+                            <bpmn2:endEvent id="$ID_END_EVENT" name="End">
+                                <bpmn2:incoming>
+                                    <xsl:value-of select="@ToObjDef.IdRef"/>
+                                </bpmn2:incoming>
+                            </bpmn2:endEvent>
+                        </xsl:for-each> 
+                        <!--      </xsl:variable> -->
+                    </xsl:if>
                 </xsl:for-each>
      
                
-                <!-- 2. Rule 2 End Event ==> Event Without Outgoing Control Flow-->
-                <bpmn2:endEvent id="EndEvent_1" name="End">
-                    <bpmn2:incoming>SequenceFlow_10</bpmn2:incoming>
-                </bpmn2:endEvent>
+            
+              
                 <!-- 3. Function ==> Activity -->
                 <bpmn2:task id="Task_10" mm:type="MyTask" name="Receive Request">
                     <bpmn2:extensionElements>
